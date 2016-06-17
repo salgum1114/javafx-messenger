@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane onMouseDragged="#handleRectangleDragged" onMousePressed="#handleRectanglePressed" prefHeight="580.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.messanger.test.view.Messanger_ProfileController">
+   <children>
+      <AnchorPane prefHeight="340.0" prefWidth="350.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button layoutX="308.0" layoutY="7.0" mnemonicParsing="false" onMouseClicked="#handleExit" prefHeight="30.0" prefWidth="30.0" AnchorPane.rightAnchor="7.0" AnchorPane.topAnchor="7.0" />
+            <Label fx:id="stateMessage" alignment="CENTER" contentDisplay="CENTER" layoutX="156.0" layoutY="73.0" prefWidth="250.0" textAlignment="CENTER" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="200.0" prefHeight="240.0" prefWidth="350.0" AnchorPane.bottomAnchor="0.0">
+         <children>
+            <Circle fx:id="imageButton" fill="#c4d3e1" layoutX="175.0" layoutY="7.0" radius="60.0" stroke="#c4d3e1" strokeType="OUTSIDE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Circle>
+            <Label fx:id="personName" alignment="CENTER" contentDisplay="CENTER" layoutX="156.0" layoutY="81.0" textAlignment="CENTER" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" />
+            <HBox layoutX="106.0" layoutY="140.0" spacing="40.0">
+               <children>
+                  <Button layoutX="80.0" layoutY="197.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+                  <Button layoutX="202.0" layoutY="197.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
+               </children>
+            </HBox>
+            <Label layoutX="106.0" layoutY="198.0" prefHeight="19.0" prefWidth="60.0" text="1:1 대화" />
+            <Label layoutX="189.0" layoutY="198.0" prefHeight="19.0" prefWidth="68.0" text="보이스톡" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

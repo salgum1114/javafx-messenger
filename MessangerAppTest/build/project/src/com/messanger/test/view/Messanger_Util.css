@@ -1,0 +1,304 @@
+
+/*
+*	Minimize button
+*/
+.decoration-button-minimize{
+    -fx-background-radius: 0;
+    -fx-border-style: null;
+    -fx-background-color: null;
+    -fx-background-image:url("./resources/icon/minimize.png");
+    -fx-background-repeat:no-repeat;
+}
+
+.decoration-button-minimize:hover{
+    -fx-background-color: null;
+    -fx-background-image:url("./resources/icon/minimize-hover.png");
+    -fx-background-repeat:no-repeat;
+}
+/*
+*	Maximize button
+*/
+.decoration-button-maximize{
+    -fx-background-radius: 0;
+    -fx-border-style: null;
+    -fx-background-color: null;
+    -fx-background-image:url("./resources/icon/maximize.png");
+    -fx-background-repeat:no-repeat;
+}
+.decoration-button-maximize:hover{
+    -fx-background-color: null;
+    -fx-background-image:url("./resources/icon/maximize-hover.png");
+    -fx-background-repeat:no-repeat;
+}
+.decoration-button-restore{
+    -fx-background-radius: 0;
+    -fx-border-style: null;
+    -fx-background-color: null;
+    -fx-background-image:url("./resources/icon/restore.png");
+    -fx-background-repeat:no-repeat;
+}
+.decoration-button-restore:hover{
+    -fx-background-color: null;
+    -fx-background-image:url("./resources/icon/restore-hover.png");
+    -fx-background-repeat:no-repeat;
+}
+/*
+*	Close button
+*/
+.decoration-button-close{
+    -fx-background-radius: 0;
+    -fx-border-style: null;
+    -fx-background-color: null;
+    -fx-background-image:url("./resources/icon/close.png");
+    -fx-background-repeat:no-repeat;
+}
+.decoration-button-close:hover{
+    -fx-background-color: null;
+    -fx-background-image:url("./resources/icon/close-hover.png");
+    -fx-background-repeat:no-repeat;
+}
+/*
+*	Fullscreen button
+*/
+.decoration-button-fullscreen{
+    -fx-background-radius: 0;
+    -fx-border-style: null;
+    -fx-background-color: null;
+    -fx-background-image:url("./resources/icon/fullscreen.png");
+    -fx-background-repeat:no-repeat;
+}
+.decoration-button-fullscreen:hover{
+    -fx-background-color: null;
+    -fx-background-image:url("./resources/icon/fullscreen-hover.png");
+    -fx-background-repeat:no-repeat;
+}
+.decoration-button-unfullscreen{
+    -fx-background-radius: 0;
+    -fx-border-style: null;
+    -fx-background-color: null;
+    -fx-background-image:url("./resources/icon/unfullscreen.png");
+    -fx-background-repeat:no-repeat;
+}
+.decoration-button-unfullscreen:hover{
+    -fx-background-color: null;
+    -fx-background-image:url("./resources/icon/unfullscreen-hover.png");
+    -fx-background-repeat:no-repeat;
+}
+.decoration-button-user{
+    -fx-background-radius: 0;
+    -fx-border-style: null;
+    -fx-background-color: null;
+    -fx-background-image:url("./resources/icon/messanger_user.png");
+    -fx-background-repeat:no-repeat;
+    -fx-background-position: center;
+}
+.decoration-button-user:hover{
+    -fx-background-color: null;
+    -fx-background-image:url("./resources/icon/messanger_user_hover.png");
+    -fx-background-repeat:no-repeat;
+    -fx-background-position: center;
+}
+.decoration-button-message{
+    -fx-background-radius: 0;
+    -fx-border-style: null;
+    -fx-background-color: null;
+    -fx-background-image:url("./resources/icon/messanger_message.png");
+    -fx-background-repeat:no-repeat;
+    -fx-background-position: center;
+}
+.decoration-button-message:hover{
+    -fx-background-color: null;
+    -fx-background-image:url("./resources/icon/messanger_message_hover.png");
+    -fx-background-repeat:no-repeat;
+    -fx-background-position: center;
+}
+.decoration-button-gear{
+    -fx-background-radius: 0;
+    -fx-border-style: null;
+    -fx-background-color: null;
+    -fx-background-image:url("./resources/icon/messanger_grid.png");
+    -fx-background-repeat:no-repeat;
+    -fx-background-position: center;
+}
+.decoration-button-gear:hover{
+    -fx-background-color: null;
+    -fx-background-image:url("./resources/icon/messanger_grid_hover.png");
+    -fx-background-repeat:no-repeat;
+    -fx-background-position: center;
+}
+.decoration-button-volume{
+    -fx-background-radius: 0;
+    -fx-border-style: null;
+    -fx-background-color: null;
+    -fx-background-image:url("./resources/icon/messanger_volume.png");
+    -fx-background-repeat:no-repeat;
+    -fx-background-position: center;
+}
+
+.decoration-button-volume:hover{
+    -fx-background-color: null;
+    -fx-background-image:url("./resources/icon/messanger_volume_hover.png");
+    -fx-background-repeat:no-repeat;
+    -fx-background-position: center;
+}
+
+.decoration-button-volumeMute{
+    -fx-background-radius: 0;
+    -fx-border-style: null;
+    -fx-background-color: null;
+    -fx-background-image:url("./resources/icon/messanger_volumeMute.png");
+    -fx-background-repeat:no-repeat;
+    -fx-background-position: center;
+}
+.decoration-button-volumeMute:hover{
+    -fx-background-color: null;
+    -fx-background-image:url("./resources/icon/messanger_volumeMute_hover.png");
+    -fx-background-repeat:no-repeat;
+    -fx-background-position: center;
+}
+.decoration-labelVolume-background{
+	-fx-background-color: rgba(0, 0, 0, 0.7);
+	-fx-background-radius: 10;
+}
+.decoration-labelVolume{
+	-fx-background-radius: 0;
+    -fx-border-style: null;
+    -fx-background-color: null;
+    -fx-background-image:url("./resources/icon/messanger_labelVolume.png");
+    -fx-background-repeat:no-repeat;
+    -fx-background-position: center;
+}
+
+.decoration-labelVolumeMute{
+	-fx-background-radius: 0;
+    -fx-border-style: null;
+    -fx-background-color: null;
+    -fx-background-image:url("./resources/icon/messanger_labelVolumeMute.png");
+    -fx-background-repeat:no-repeat;
+    -fx-background-position: center;
+}
+.decoration-button-list{
+    -fx-background-radius: 0;
+    -fx-border-style: null;
+    -fx-background-color: null;
+    -fx-background-image:url("./resources/icon/messanger_list.png");
+    -fx-background-repeat:no-repeat;
+    -fx-background-position: center;
+}
+.decoration-button-list > .arrow-button > .arrow{
+    -fx-background-color: null;
+}
+.decoration-button-list:hover{
+    -fx-background-color: null;
+    -fx-background-image:url("./resources/icon/messanger_list_hover.png");
+    -fx-background-repeat:no-repeat;
+    -fx-background-position: center;
+}
+
+/*
+*	Resize button
+*/
+.decoration-button-resize{
+    -fx-background-radius: 0;
+    -fx-border-style: null;
+    -fx-background-color: null;
+    -fx-background-image:url("./resources/icon/resizeSE.png");
+    -fx-background-repeat:no-repeat;
+}
+/*
+ *  Search Icon
+ */
+.decoration-label-search{
+ 	-fx-background-radius: 0;
+    -fx-border-style: null;
+    -fx-background-color: null;
+    -fx-background-image:url("./resources/icon/search.png");
+    -fx-background-repeat:no-repeat;
+ }
+.decoration-label-logo{
+	-fx-background-radius: 0;
+    -fx-border-style: null;
+    -fx-background-color: null;
+    -fx-background-image:url("./resources/icon/messanger_nkiaLogo.png");
+    -fx-background-repeat:no-repeat;
+    -fx-background-position: center;
+}
+ 
+.decoration-background{
+	-fx-border-insets: 3.0;
+	-fx-background-insets: 3.0;
+  	-fx-background-radius: 0.0;
+  	-fx-border-radius: 0.0;
+  	-fx-border-color: white;
+  	-fx-background-color: white;
+	-fx-effect: dropshadow(three-pass-box, rgba(100, 100, 100, 0.7), 10.0, 0.0, 0.0, 0.0);
+}
+
+.decoration-listview-background{
+    -fx-background-insets: 0;
+}
+.decoration-anchorpane-background{
+	-fx-background-color: #9ca4a3;
+}
+.decoration-anchorpane-insets{
+	-fx-border-color: gray ;
+	-fx-border-insets: 0, 0, 0, 0;
+}
+.decoration-message-background{
+	-fx-background-color: blue;
+}
+.decoration-messagecontent-background{
+	-fx-background-color: skyblue;
+	-fx-background-insets: 0;
+}
+
+/* The main scrollbar **track** CSS class  */
+.list-view .scroll-bar:horizontal .track,
+.list-view .scroll-bar:vertical .track{
+    -fx-background-color:transparent;
+    -fx-border-color:transparent;
+    -fx-background-radius: 0em;
+}
+ 
+/* The increment and decrement button CSS class of scrollbar */
+.list-view .scroll-bar:horizontal .increment-button,
+.list-view .scroll-bar:horizontal .decrement-button, 
+.list-view .scroll-bar:horizontal .thumb,
+.list-view .scroll-bar:horiznotal .increment-arrow{
+    -fx-background-color:transparent;
+    -fx-background-radius: 0em;
+    -fx-padding: 0px;
+}
+
+/* The increment and decrement button CSS class of scrollbar */
+.list-view .scroll-bar:vertical .increment-button ,
+.list-view .scroll-bar:vertical .decrement-button { 
+    -fx-background-color:transparent;
+    -fx-background-radius: 0em;
+    -fx-padding:0 15 0 0;
+}
+.list-view  .scroll-bar .increment-arrow,
+.list-view  .scroll-bar .decrement-arrow{
+    -fx-shape: " ";
+    -fx-padding:0;
+}
+/* The main scrollbar **thumb** CSS class which we drag every time (movable) */
+.list-view .scroll-bar:vertical .thumb {
+    -fx-background-color:derive(black,90%);
+    -fx-background-insets: 2, 0, 0;
+}
+
+
+.list-cell:selected{
+	-fx-background-color: yellow;
+}
+.list-cell:hover{
+	-fx-background-color: gray;
+}
+.list-cell{
+	-fx-background-color: white;
+}
+.list-cell:empty{
+	-fx-background-color: white;	
+	-fx-border-width: 0px;
+}

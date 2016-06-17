@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="200.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.messanger.test.view.Messanger_LoginController">
+   <children>
+      <Label fx:id="confirmLabel" layoutX="155.0" layoutY="45.0" prefHeight="19.0" prefWidth="240.0" text="아이디와 비밀번호가 틀렸습니다." AnchorPane.leftAnchor="155.0" AnchorPane.rightAnchor="155.0" />
+      <Button layoutX="155.0" layoutY="100.0" mnemonicParsing="false" onKeyPressed="#handleConfirm" onMouseClicked="#handleConfirm" prefHeight="29.0" prefWidth="161.0" text="확인" AnchorPane.leftAnchor="155.0" AnchorPane.rightAnchor="155.0" />
+   </children>
+</AnchorPane>
